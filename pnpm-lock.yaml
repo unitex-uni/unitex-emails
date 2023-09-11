@@ -8,6 +8,9 @@ dependencies:
   '@maizzle/framework':
     specifier: latest
     version: 4.6.0(glob@7.2.3)
+  tailwindcss:
+    specifier: ^3.3.3
+    version: 3.3.3
   tailwindcss-box-shadow:
     specifier: ^2.0.0
     version: 2.0.1(tailwindcss@3.3.3)
