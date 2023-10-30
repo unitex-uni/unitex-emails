@@ -9,17 +9,17 @@ dependencies:
     specifier: latest
     version: 4.6.0(glob@7.2.3)
   tailwindcss:
-    specifier: ^3.3.3
-    version: 3.3.3
+    specifier: ^3.3.5
+    version: 3.3.5
   tailwindcss-box-shadow:
     specifier: ^2.0.0
-    version: 2.0.1(tailwindcss@3.3.3)
+    version: 2.0.1(tailwindcss@3.3.5)
   tailwindcss-email-variants:
     specifier: ^2.0.0
-    version: 2.0.3(tailwindcss@3.3.3)
+    version: 2.0.3(tailwindcss@3.3.5)
   tailwindcss-mso:
     specifier: ^1.3.0
-    version: 1.3.0(tailwindcss@3.3.3)
+    version: 1.3.0(tailwindcss@3.3.5)
 
 packages:
 
@@ -160,7 +160,7 @@ packages:
       query-string: 7.1.3
       string-remove-widows: 2.1.0
       string-strip-html: 8.5.0
-      tailwindcss: 3.3.3
+      tailwindcss: 3.3.5
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -4702,34 +4702,34 @@ packages:
     engines: {node: '>=0.10'}
     dev: false
 
-  /tailwindcss-box-shadow@2.0.1(tailwindcss@3.3.3):
+  /tailwindcss-box-shadow@2.0.1(tailwindcss@3.3.5):
     resolution: {integrity: sha512-F0reqyXrQkcPQiCM27ZqV8Le0CGqea0S5PCwwgTnNrdzOdDs2y6iJ5jJKIdMgKu/1VxUpgP0CMPU/k8vdqpLBA==}
     peerDependencies:
       tailwindcss: '>=3.3.0'
     dependencies:
-      tailwindcss: 3.3.3
+      tailwindcss: 3.3.5
     dev: false
 
-  /tailwindcss-email-variants@2.0.3(tailwindcss@3.3.3):
+  /tailwindcss-email-variants@2.0.3(tailwindcss@3.3.5):
     resolution: {integrity: sha512-AfO4g/ZpTW7EUV9c1F3gJK6Tqud7nz54oqo0U4ik0Y9jK2Wu7KNNFFK2IuhOa2FkuwGfZp6KLs9rTzwandq/+g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       tailwindcss: '>=3.1.0'
     dependencies:
       lodash.get: 4.4.2
-      tailwindcss: 3.3.3
+      tailwindcss: 3.3.5
     dev: false
 
-  /tailwindcss-mso@1.3.0(tailwindcss@3.3.3):
+  /tailwindcss-mso@1.3.0(tailwindcss@3.3.5):
     resolution: {integrity: sha512-aCdQrJaS0GM3/aTOG7T/KuUvoVJvpW4H+9Ao2aYfm3mjd515I5JtJqOcZRXaC99AOTfaKJ0skgRIt8h6LTkDNw==}
     peerDependencies:
       tailwindcss: '>=3.0.0'
     dependencies:
-      tailwindcss: 3.3.3
+      tailwindcss: 3.3.5
     dev: false
 
-  /tailwindcss@3.3.3:
-    resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
+  /tailwindcss@3.3.5:
+    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
