@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@maizzle/framework':
     specifier: latest
-    version: 4.6.0(glob@7.2.3)
+    version: 4.6.1(glob@7.2.3)
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
@@ -121,8 +121,8 @@ packages:
       - zenObservable
     dev: false
 
-  /@maizzle/framework@4.6.0(glob@7.2.3):
-    resolution: {integrity: sha512-p9gIBmlihJ3DcCx8/qzO05Cm4OFgLq5lM6JbucdIFEX2BUA7zxLo31CVUMT8tSjazJNYJWo2GRK+QVn+KWuLiQ==}
+  /@maizzle/framework@4.6.1(glob@7.2.3):
+    resolution: {integrity: sha512-EZCalJ7O8GCDUkCvyzjq7uXb+k0d4UuLK0jGZg6KDTd0a+9h7fQyXowRqWrOSMNiZPjJWJi5tSaAgR3qt3J80w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
