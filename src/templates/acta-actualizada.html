@@ -1,0 +1,66 @@
+---
+bodyClass: bg-neutral-100
+---
+
+<x-main>
+  <div class="bg-neutral-100 sm:px-4 font-sans">
+    <table align="center">
+      <tr>
+        <td class="w-[600px] max-w-full bg-white shadow-sm">
+          <x-logo />
+          <div class="w-full h-1 bg-emerald-700"></div>
+          <table>
+            <tr>
+              <td class="px-6 py-8 text-base text-neutral-700">
+                <p class="m-0 mb-4 leading-6">
+                  <strong>Estimado/a [Nombre del Profesor],</strong>
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Espero que este correo le encuentre bien. El propósito de la
+                  presente comunicación es proporcionarle la lista de alumnos
+                  actualizada para la asignatura
+                  <strong>[Nombre de la asignatura]</strong>
+                  correspondiente al semestre
+                  <strong>[Número de semestre]</strong> de la maestría
+                  <strong>[Nombre de la maestría]</strong>. Esta asignatura
+                  comenzará el <strong>[Fecha de inicio]</strong>
+                  <strong>[Fecha de término]</strong>.
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Esta actualización tiene como objetivo asegurar que tenga
+                  acceso a la información más reciente y precisa sobre sus
+                  estudiantes, facilitando así el seguimiento académico y la
+                  comunicación efectiva durante el desarrollo del curso.
+                </p>
+                <x-alert variant="default">
+                  Si encuentra algún error o tiene alguna pregunta con respecto
+                  a la lista adjunta, le agradeceríamos que nos informara lo
+                  antes posible para que podamos corregir cualquier
+                  discrepancia.
+                </x-alert>
+                <x-spacer height="16px" />
+                <p class="m-0 mb-4 leading-6">
+                  Agradecemos de antemano su atención y cooperación en este
+                  asunto. Quedamos a disposición para cualquier consulta
+                  adicional que pueda tener.
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Le deseamos mucho éxito en la enseñanza de esta asignatura y
+                  apreciamos su dedicación al desarrollo académico de nuestros
+                  estudiantes.
+                </p>
+                <p class="m-0 my-4 leading-6">Atentamente,</p>
+                <x-signature />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <x-footer />
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>
