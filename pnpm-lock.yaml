@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@maizzle/framework':
     specifier: latest
-    version: 4.6.0(glob@7.2.3)
+    version: 4.6.2(glob@7.2.3)
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
@@ -121,8 +121,8 @@ packages:
       - zenObservable
     dev: false
 
-  /@maizzle/framework@4.6.0(glob@7.2.3):
-    resolution: {integrity: sha512-p9gIBmlihJ3DcCx8/qzO05Cm4OFgLq5lM6JbucdIFEX2BUA7zxLo31CVUMT8tSjazJNYJWo2GRK+QVn+KWuLiQ==}
+  /@maizzle/framework@4.6.2(glob@7.2.3):
+    resolution: {integrity: sha512-UZQGgErS1i/PTIAktJkME9tInA5aW/w82V/XcbcUbGz4b32VBN3/Uq+UA4dwV8LCqqEZWrzkO/y01UI0GNz8kQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -132,11 +132,11 @@ packages:
       color-shorthand-hex-to-six-digit: 3.1.0
       email-comb: 5.3.1
       front-matter: 4.0.2
-      fs-extra: 10.1.0
+      fs-extra: 11.2.0
       glob-promise: 4.2.2(glob@7.2.3)
       html-crush: 4.2.0
       is-url-superb: 5.0.0
-      juice: 9.1.0
+      juice: 10.0.0
       lodash: 4.17.21
       ora: 5.4.1
       postcss: 8.4.29
@@ -1779,6 +1779,15 @@ packages:
       universalify: 2.0.0
     dev: false
 
+  /fs-extra@11.2.0:
+    resolution: {integrity: sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
   /fs-extra@3.0.1:
     resolution: {integrity: sha512-V3Z3WZWVUYd8hoCL5xfXJCaHWYzmtwW5XWYSlLgERi8PWd8bx1kUHUk8L1BT57e49oKnDDD180mjfrHc1yA9rg==}
     dependencies:
@@ -2646,8 +2655,8 @@ packages:
       graceful-fs: 4.2.11
     dev: false
 
-  /juice@9.1.0:
-    resolution: {integrity: sha512-odblShmPrUoHUwRuC8EmLji5bPP2MLO1GL+gt4XU3tT2ECmbSrrMjtMQaqg3wgMFP2zvUzdPZGfxc5Trk3Z+fQ==}
+  /juice@10.0.0:
+    resolution: {integrity: sha512-9f68xmhGrnIi6DBkiiP3rUrQN33SEuaKu1+njX6VgMP+jwZAsnT33WIzlrWICL9matkhYu3OyrqSUP55YTIdGg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
