@@ -9,6 +9,7 @@
 |
 */
 
+/** @type {import('@maizzle/framework').Config} */
 module.exports = {
   build: {
     templates: {
