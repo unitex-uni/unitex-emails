@@ -1,0 +1,84 @@
+---
+bodyClass: bg-neutral-100
+preheader: 'Entra para ver más detalles'
+---
+
+<x-main>
+  <div class="bg-neutral-100 sm:px-4 font-inter">
+    <table align="center">
+      <tr>
+        <td class="w-[600px] max-w-full bg-white shadow-sm">
+          <x-logo />
+          <x-divider height="4px" color="#047857" top="0px" bottom="0px" />
+          <table>
+            <tr>
+              <td class="px-6 py-8 text-base text-neutral-700">
+                <p class="m-0 mb-4 leading-6">
+                  <strong>Estimado alumno de UNITEX,</strong>
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Agradecemos tu puntualidad en el pago de tus colegiaturas.
+                  <strong>
+                    Te recordamos que la fecha límite para el pago de tu
+                    colegiatura correspondiente al mes de DICIEMBRE 2024 es
+                    hasta el próximo 6 de diciembre.
+                  </strong>
+                  Realiza tu pago a tiempo y evita recargos.
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Para conocer las opciones de pago disponibles y los datos
+                  bancarios actualizados, haz clic en el botón que se muestra a
+                  continuación:
+                </p>
+                <x-button
+                  align="center"
+                  href="https://drive.google.com/file/d/1LnBHlYHteCmLeyiwJF6P_uCX6HhEPCju/view?usp=sharing"
+                >
+                  Ver datos bancarios
+                </x-button>
+                <x-spacer height="16px" />
+                <p class="m-0 leading-6">
+                  Si realizas pago con tarjeta, acude a nuestras oficinas en los
+                  siguientes horarios:
+                </p>
+                <ul class="m-0 mb-4 list-disc list-outside">
+                  <li>Lunes a viernes: 9:00 a 18:00 horas</li>
+                  <li>Sábados: 8:00 a 17:00 horas.</li>
+                </ul>
+                <p class="m-0 mb-4 leading-6">
+                  <strong>Nota:</strong> No aceptamos pagos con tarjetas
+                  American Express.
+                </p>
+                <x-alert variant="success">
+                  Si realizas tu pago por transferencia, te solicitamos enviar
+                  una copia de tu comprobante al correo electrónico
+                  <span class="underline text-emerald-900"
+                    >pagosenlineaunitex@gmail.com</span
+                  >. Esto es necesario para generar tu comprobante electrónico
+                  en nuestro sistema y evitar cualquier inconveniente.
+                </x-alert>
+                <x-spacer height="16px" />
+                <x-alert variant="default">
+                  Si ya realizaste tu pago, puedes hacer caso omiso de este
+                  correo.
+                </x-alert>
+                <p class="m-0 my-4 leading-6">
+                  Para cualquier duda o aclaración, no dudes en comunicarte con
+                  nuestro departamento de Administración y Cobranza a los
+                  teléfonos 228 812 3314 o 228 818 53 53 ext. 109/110.
+                </p>
+                <p class="m-0 my-4 leading-6">Atentamente,</p>
+                <x-signature />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <x-footer />
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>

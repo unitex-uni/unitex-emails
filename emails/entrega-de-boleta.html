@@ -1,0 +1,50 @@
+---
+bodyClass: bg-neutral-100
+preheader: 'Entra para ver más detalles'
+---
+
+<x-main>
+  <div class="bg-neutral-100 sm:px-4 font-inter">
+    <table align="center">
+      <tr>
+        <td class="w-[600px] max-w-full bg-white shadow-sm">
+          <x-logo />
+          <x-divider height="4px" color="#047857" top="0px" bottom="0px" />
+          <table>
+            <tr>
+              <td class="px-6 py-8 text-base text-neutral-700">
+                <p class="m-0 mb-4 leading-6">
+                  <strong>Estimado alumno de UNITEX,</strong>
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Por este medio te hacemos llegar la boleta correspondiente al
+                  ciclo escolar <strong>MARZO 2023 - AGOSTO 2023</strong>.
+                </p>
+                <p class="m-0 mb-4 leading-6">
+                  Te informamos que a partir de esta notificación, contarás con
+                  un período de 72 horas para realizar cualquier aclaración que
+                  consideres pertinente en relación a tus evaluaciones.
+                  Entendemos que pueden surgir situaciones excepcionales que
+                  requieran una revisión detallada. Transcurrido este plazo de
+                  72 horas, todas las calificaciones quedarán definitivas y no
+                  podrán ser modificadas.
+                </p>
+                <x-alert variant="default">
+                  Por favor, confirma la recepción de este correo electrónico
+                  para que podamos tener constancia de que has sido informado.
+                </x-alert>
+                <p class="m-0 my-4 leading-6">Atentamente,</p>
+                <x-signature />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <x-footer />
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>
