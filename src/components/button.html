@@ -2,16 +2,16 @@
   // https://maizzle.com/docs/components/button
   module.exports = {
     align: {
-      left: 'text-left',
-      center: 'text-center',
-      right: 'text-right',
+      left: "text-left",
+      center: "text-center",
+      right: "text-right",
     }[props.align],
     href: props.href,
-    msoPt: props['mso-pt'] || '16px',
-    msoPb: props['mso-pb'] || '30px',
-    color: props.color || '#ffffff',
-    bgColor: props['bg-color'] || '#047857',
-  }
+    msoPt: props["mso-pt"] || "16px",
+    msoPb: props["mso-pb"] || "30px",
+    color: props.color || "#ffffff",
+    bgColor: props["bg-color"] || "#047857",
+  };
 </script>
 
 <div class="{{ align }}">
@@ -24,12 +24,7 @@
     rel="noopener noreferrer"
   >
     <outlook>
-      <i
-        class="mso-font-width-[150%]"
-        style="mso-text-raise: {{ msoPb }};"
-        hidden
-        >&emsp;</i
-      >
+      <i class="mso-font-width-[150%]" style="mso-text-raise: {{ msoPb }};" hidden>&emsp;</i>
     </outlook>
     <span style="mso-text-raise: {{ msoPt }}"><content /></span>
     <outlook>
